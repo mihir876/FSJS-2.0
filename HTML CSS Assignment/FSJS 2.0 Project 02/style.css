@@ -1,0 +1,79 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body {
+   
+    background-image: url("./assets/bg.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-image-width: auto;
+    
+    
+    
+  }
+.logo{
+    color: #ffffff;
+    width:100px;
+    padding-top: 5px;
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 10px;
+    
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    
+}
+.list-item{
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.button-small{
+    color: #ffffff;
+    background-color:#8D3DAF ;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    border-color: #8D3DAF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.hero-heading{
+    color: #ffffff;
+    font-size: 70px;
+    width:850px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.hero-description{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
+.button-large{
+    color: #ffffff;
+    background-color:#8D3DAF ;
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px;
+    border-color: #8D3DAF;
+    position: relative;
+    bottom: 50px;
+    left: 180px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.hero{
+    margin-left: 400px;
+    margin-top: 100px;
+
+}
+ .container{
+    width: fit-content;
+ }

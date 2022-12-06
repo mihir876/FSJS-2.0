@@ -1,0 +1,56 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+.navbar-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.navbar-container>div>img{
+    width: 100px;
+
+}
+.list{
+    display: flex;
+    flex-direction: row;
+   list-style-type: none;
+   
+    
+}
+.list-item{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.list-item:hover{
+    
+    cursor: pointer;
+}
+.one{
+    font-size: 20px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.button-group{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav-button{
+    padding: 5px 50px 5px 50px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.hero-container{
+    display: flex;
+    flex-direction: row;
+}
+.square{
+    margin-top: 250px;
+    margin-left: 100px;
+    width: 100px;
+}
+.hero-containe>div>img{
+    height: 100px;
+    
+}
