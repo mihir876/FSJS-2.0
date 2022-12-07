@@ -9,20 +9,22 @@
 .navbar-container>div>img{
     width: 100px;
     margin-top: 4px;
+    
 }
 .list{
     display: flex;
     flex-direction: row;
-    
+   position: absolute;
+   left:350px;
 
     
 }
 
 .list-item{
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 20px 0px 20px;
     list-style-type: none;
-    color: #CAD5E2;
+    color: #717375;
     cursor: pointer;
     
 }
@@ -43,11 +45,11 @@
 }
 
 .banner-container>div>img{
-    width:500px;
-    height: 400px;
+    width:550px;
+    height: 450px;
     position: absolute;
-    right:100px ;
-    bottom: 200px;
+    right:150px ;
+    bottom: 100px;
     
 }
 .heading-text{
@@ -62,7 +64,7 @@
     color: #8D3DAF;
 }
 .description{
-    color: #CAD5E2;
+    color: #7c7c7d;
     width: 380px;
     margin-left: 20px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -75,6 +77,6 @@
     cursor: pointer;
 }
 .banner-container{
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: 150px;
 }

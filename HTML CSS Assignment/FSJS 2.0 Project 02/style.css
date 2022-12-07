@@ -4,9 +4,9 @@ body {
    
     background-image: url("./assets/bg.png");
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    border-image-width: auto;
-    
+    background-repeat:no-repeat;
+    background-size: auto;
+   
     
     
   }
@@ -19,9 +19,10 @@ body {
 .navbar{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #000;
     padding: 10px;
+    width:100%;
     
 }
 .list{
