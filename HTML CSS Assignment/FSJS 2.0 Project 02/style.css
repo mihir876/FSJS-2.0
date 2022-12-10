@@ -1,33 +1,41 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
 body {
-   
-    background-image: url("./assets/bg.png");
-    background-attachment: fixed;
-    background-repeat:no-repeat;
-    background-size: auto;
-   
-    
-    
-  }
+        background-image: url("./assets/bg.png");
+         background-repeat: no-repeat;
+         background-size:cover;
+         background-attachment: fixed;
+         background-size: 100% 100%;
+}
+ 
 .logo{
     color: #ffffff;
     width:100px;
     padding-top: 5px;
+    margin-left:50px ;
     
 }
 .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #000;
-    padding: 10px;
-    width:100%;
     
+     width:1300px;
+    
+    background-attachment: fixed;
+    
+                            
+    
+    
+}
+.navbar{
+    background-color: black;
 }
 .list{
     display: flex;
     flex-direction: row;
+    margin-right:100px;
+
     
 }
 .list-item{
@@ -36,6 +44,7 @@ body {
     padding-right: 20px;
     list-style-type: none;
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    cursor: pointer;
 }
 .button-small{
     color: #ffffff;
@@ -44,6 +53,8 @@ body {
     border-radius: 5px;
     border-color: #8D3DAF;
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-right: 10x;
+    
 }
 .hero-heading{
     color: #ffffff;
