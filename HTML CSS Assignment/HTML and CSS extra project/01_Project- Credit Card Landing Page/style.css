@@ -1,3 +1,7 @@
+.contianer{
+    margin:0px;
+    padding: 0px;
+}
 .nav{
     display: flex;
     justify-content: space-around;
@@ -5,6 +9,8 @@
   background-color: #000
   ;
   color: #ffff;
+  margin:0px;
+  padding: 0px;
 }
 nav>img{
     width:100px;
@@ -28,4 +34,41 @@ nav>img{
     margin-left: 30px;
     padding: 5px;
     
+}
+.firstsection>h1{
+    font-size:60px;
+    width:700px ;
+}
+.firstsection>p{
+    width: 390px;
+    color: #979b9e;
+}
+.firstsection>h1>span{
+    color: #E03B8B;
+}
+.start{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.start>img{
+  
+  /* margin-left:50px; */
+}
+.start>img>span{
+    position: absolute;
+    margin-left: 100px;
+}
+.k{
+    font-size: 30px;
+}
+
+.plus{
+    color: #E03B8B;
+    font-size: 50px;
+}
+.user{
+    font-size: 10px;
+    color: #979b9e;
+    width:50px;
 }
