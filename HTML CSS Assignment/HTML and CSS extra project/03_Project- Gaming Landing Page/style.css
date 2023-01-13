@@ -1,0 +1,35 @@
+
+.header{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.header>img{
+    width: 130px;
+}
+
+.header>nav{
+    display:inline;
+    
+}
+.header>nav>a{
+    text-decoration: none;
+    margin:20px;
+}
+
+.sign-up{
+    display: flex;
+    column-gap: 10px;
+}
+.sign-up>button{
+    text-align: center;
+    padding: 5px 30px 5px 30px;
+    background-color:#DE4839;
+    border: 1px solid black;
+}
+
+
+.left-1{
+    width:150px;
+}
