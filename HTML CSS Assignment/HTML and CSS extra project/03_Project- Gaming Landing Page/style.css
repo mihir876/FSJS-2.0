@@ -1,12 +1,28 @@
-
+body{
+   margin:0px;
+   padding:0px;
+ 
+}
+.bgc-img1{
+    border: 1px solid black;
+    color: #fff;
+    background-image: url(./Project\ 3-\ Gaming\ Landing\ Page/Assets/Photos/futuristic-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30px;
+    padding-bottom: 50px;
+  
+}
 .header{
      display: flex;
      justify-content: space-around;
      align-items: center;
+     margin-top: 0px;
 }
 
 .header>img{
     width: 130px;
+    cursor: pointer;
 }
 
 .header>nav{
@@ -16,6 +32,8 @@
 .header>nav>a{
     text-decoration: none;
     margin:20px;
+    color: #fff;
+    cursor: pointer;
 }
 
 .sign-up{
@@ -24,12 +42,211 @@
 }
 .sign-up>button{
     text-align: center;
-    padding: 5px 30px 5px 30px;
+    padding:5px 20px 5px 20px;
     background-color:#DE4839;
     border: 1px solid black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.part1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:30px;
 }
 
 
 .left-1{
-    width:150px;
+    width:390px;
+    margin-right: 220px;
 }
+.left-1>h1{
+    font-size: 40px;
+}
+.left-1>p{
+    font-size: 15px;
+    color: rgb(119, 116, 116);
+}
+
+.left-1>div{
+     display: inline;
+}
+.btn1{
+    padding: 10px 30px 10px 30px;
+    background-color: #DE4839;
+    border: 1px solid rgb(199, 39, 39);
+    color: white;
+    cursor: pointer;
+
+}
+.btn2{
+       padding: 10px 30px 10px 30px;
+    background-color: transparent;
+    border: 1px solid rgb(227, 219, 219);
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.dash{
+   display: flex;
+   margin-top: 100px;
+   
+}
+.dash>p{
+    width:180px;
+    font-size: 20px;
+}
+.arrowimg{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.dashimg{
+    align-self: flex-start;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.right-1>img{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+.gamerating>header{
+    width: 350px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.gamestar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 30px;
+}
+.g1>img{
+    width: 300px;
+    height:250px;
+}
+.g2>img{
+    width: 300px;
+    height:250px;
+}
+.g3>img{
+    width: 300px;
+    height:250px;
+}
+.g4>img{
+    width: 300px;
+    height:250px;
+}
+
+.base1{
+    width: 300px;
+ 
+    position: relative;
+    bottom:120px;
+    
+    background-color:transparent;
+    color: #fff;
+    
+  
+}
+
+.base1>img{
+    width: 15px;
+    display: inline;
+    
+}
+.base1>button{
+    display:inline;
+    padding: 10px 30px 10px 30px;
+    background-color: #DE4839;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    
+   
+    /* margin-left: 30px; */
+    
+}
+.wargame{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftside>img{
+    width: 500px;
+}
+.btnnew{
+    padding: 10px 30px 10px 30px;
+    background-color: transparent;
+    border: 1px solid rgb(229, 38, 38);
+    color: rgb(202, 25, 25);
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.rightside>h1{
+    font-size: 35px;
+    width: 400px;
+}
+.rightside>p{
+    font-size: 15px;
+    width: 450px;
+    color: rgb(82, 79, 79);
+}
+
+.rightbtn>img{
+    width: 30px;
+}
+.leftbtn>img{
+    width: 30px;
+}
+.gamerecommend{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:  50PX; 
+    
+    
+}
+.gamerecommend>h1{
+    font-size: 30px;
+    width:300px;
+    padding-left: 20px;
+    
+}
+
+.setimg{
+    display: flex;
+    column-gap: 10px;
+    margin-top:60px;
+    
+}
+.img-G>img{
+    width: 180px;
+}
+.Deatils>strong{
+    color: #DE4839;
+}
+.Deatils>p{
+    font-size: 15px;
+    color: rgb(90, 95, 95);
+}
+.superhero-G{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+    
