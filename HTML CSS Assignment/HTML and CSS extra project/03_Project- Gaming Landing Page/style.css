@@ -152,6 +152,7 @@ body{
     
     background-color:transparent;
     color: #fff;
+    font-weight: bold;
     
   
 }
@@ -247,6 +248,109 @@ body{
     grid-column-gap: 10px;
     margin-left: 100px;
     margin-top: 50px;
+    padding-bottom: 100px;
 
 }
+.Mostgames{
+    background-color: black;
+    padding-top: 30px;
+}
+.Mostgames>h1{
+    text-align: center;
+    margin-bottom:30px;
+    color:#fff;
+    font-size: 30px;
+}
+
+.yearofthegame{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
     
+.yearofthegame>img{
+    width:200px;
+}
+.yearofthegame>p{
+    font-size: 15px;
+    color: rgb(85, 92, 92);
+}
+
+.lesstow>img{
+    width: 180px;
+    margin-left: 30px;
+    
+}
+.lesstow{
+    
+    
+    margin-left: 600px;
+    position: relative;
+    bottom: 80px;
+}
+
+ .Experience{
+    text-align: center;
+    background-image: url("./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 606.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top:0px;
+    background-color: black;
+    padding: 50px;
+    opacity: .6;
+    font-weight: bold;
+ }
+ .Experience>h1{
+    font-size: 40px;
+    color: #fff;
+ }
+ .Experience>p{
+    font-size: 15px;
+    color: #747070;
+ }
+ .footer>img{
+    width: 70px;
+    cursor: pointer;
+ }
+ .foot{
+    position: relative;
+    top:35px;
+ }
+ .pcolor{
+    font-size: 15px;
+    color: #747070;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+ }
+ .pcolor:hover{
+    color: #fff;
+    text-decoration: none;
+ }
+ .socialmedia{
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+ }
+
+ .footer{
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+    padding: 30px;
+    background-color: black;
+ }
+ .top{
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+ }
+
+ .articles{
+    display: flex;
+    flex-direction: column;
+    row-gap:5px;
+    
+ }
