@@ -1,0 +1,299 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+.header-section{
+ display: flex;
+ justify-content: center;
+ column-gap: 70px;
+}
+.beatslogo{
+    color: white;
+    position: absolute;
+    top:30px;
+    
+   
+}
+.beatsheadphone{
+    height: 450px;
+}
+.nav{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 30px;
+}
+.navbar{
+    
+    text-decoration: none;
+    color: #fff;
+    
+
+}
+.btn{
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(42, 40, 40);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Beats3{
+   position: absolute;
+   right: 450px;
+   top: 140px;
+}
+
+.Beats3>img{
+    width: 300px;
+    margin-left: 50px;
+}
+.Beats3>div>h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+.Beats3>div>b{
+    color: #fff;
+    font-size:20px;
+
+}
+.Beats3>div>p{
+    color: rgb(80, 83, 83);
+    font-size: medium;
+}
+.bag{
+    width: 150px;
+    background-color: rgb(27, 26, 26);
+    border-radius: 10px;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
+.bag>p{
+    font-size: small;
+}
+.bag>p>b{
+    margin-left: 5px;
+    font-size: medium;
+}
+.bag>p>img{
+  width: 15px;
+  
+}
+.apps{
+margin-top: 150px;
+margin-left: 380px;
+}
+.apps>img{
+    width: 70px;
+    margin-left: 70px;
+    
+}
+.same-proicon>img{
+   width: 20px;
+   color: #fff;
+}
+.same-proicon>strong{
+      color: #fff;
+      font-size: 20px;
+}
+.same-proicon>p{
+    color: rgb(49, 47, 47);
+    font-size:medium;
+    padding:0px;
+    margin-top: 0px;
+}
+.specs{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.specs>img{
+    margin-left: 130px;
+}
+.connection{
+    margin-left: 30px;
+}
+.microphones{
+    margin-left: 30px;
+}
+.icon-specs{
+    display: flex;
+    column-gap: 50px;
+    row-gap: 20px;
+    margin-top: 80px;
+}
+.case{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.case>img{
+    margin-left: 150px;
+}
+.case-deatils>img{
+    width: 250px;
+}
+.case-deatils{
+ display: flex;
+ column-gap: 50px;
+ align-items: center;
+ margin-top: 50px;
+}
+.case-description>p{
+    color: rgb(133, 130, 130);
+    font-size: medium;
+    
+}
+.infologo{
+    width: 18px;
+    text-align: center;
+    margin-right: 5px;
+  
+    
+}
+.immerse-yourself{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 30px;
+    background-color: rgb(33, 29, 29);
+    border-radius: 10px;
+    margin-top: 100px;
+
+}
+.buy-now>h1{
+    color: #fff;
+    font-size: 30px;
+}
+.buy-now>p{
+    color: rgb(94, 95, 96);
+    font-size: medium;
+}
+.bt1{
+    background-color: black;
+    margin-right: 5px;
+
+}
+.blackheadphone>img{
+    width: 80px;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+    padding:0px;
+    
+}
+.blackheadphone{
+     background-color: rgb(20, 20, 20);
+     width: 150px;
+      border-radius: 10px;
+}
+.bagcard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 20px;
+    padding: 0px;
+    margin-bottom:20px;
+    padding-bottom: 20px;
+}
+.bagcard>div>b{
+    color: #fff;
+    
+
+}
+.bagcard>img{
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.headphones{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 600px;
+}
+.choose-yourstyle>img{
+     margin-left: 100px;
+     margin-bottom: 100px;
+}
+.choose-yourstyle{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.prducts{
+    
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 10px;
+}
+.prducts>b{
+    color: #fff;
+    margin-bottom:0px;
+}
+.a{
+ color: rgb(69, 67, 67);
+ font-size: medium;
+ text-decoration: none;
+}
+.support{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.support>b{
+   color: #fff;
+}
+
+.email{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(35, 35, 34);
+    border-radius: 10px;
+    
+
+}
+.email>p{
+    color: #fff;
+}
+.bt2{
+    color: #fff;
+    padding:5px 25px;
+    background-color: black;
+    cursor: pointer;
+}
+.socialimg{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.footer>img{
+    width:30px;
+    height:15px;
+    margin-right: 50px;
+}
+.twitterlogo{
+    background-color:black;
+    margin-top: 70px;
+}
+.uperarrow{
+    position: absolute;
+    right: 0px;
+    margin-top: 80px;
+    width: 30px;
+    height: 50px;
+}

@@ -1,0 +1,150 @@
+body{
+    font-family: system-ui;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.header>img{
+    width: 100px;
+    margin-right: 260px;
+}
+.header>nav{
+    display: inline;
+}
+.nav{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+}
+.btn{
+    padding: 5px 25px 5px 25px;
+    text-align: center;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.link-brightness{
+    width: fit-content;
+  background-color: rgb(215, 225, 225);
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 5px;
+}
+.link-brightness>a{
+    text-decoration: none;
+    text-align: center;
+}
+.h1{
+    font-size: 40px;
+}
+.paragraph{
+     font-size: small;
+     color: rgb(67, 64, 64);
+}
+.button{
+    display: inline;
+
+}
+.bt1{
+    background-color: rgb(50, 50, 151);
+    color: #fff;
+}
+.bt2{
+    border: 1px solid #fff;
+}
+.left-side{
+    width: fit-content;
+}
+.right-side>img{
+    width: 300px;
+}
+
+.bigdata>a>img{
+    width: 15px;
+    padding: auto;
+    
+}
+.alink{
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(196, 189, 189);
+    border-radius: 20px;
+    width:fit-content;
+    padding: 3px 10px 3px 10px;
+
+    
+}
+.bigdata{
+    text-align: center;
+    margin-top: 100px;
+}
+.data-analytics{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    column-gap: 150px;
+}
+.steps-3{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+.step{
+  text-align: center;
+}
+.h{
+    font-size: 30px;
+}
+
+.right-sidee>div>a>img{width: 20px;
+    text-align: center;
+    margin-top: 2px;
+padding: auto;}
+.al{
+    padding: 10px 25px ;
+    text-align: center;
+}
+.best-stack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 80px;
+    margin-top: 100px;
+}
+.left-partt>a>img{
+    width: 15px;
+    padding: auto;
+}
+
+.Enigneer-team{
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.right-part>img{
+    width: 450px;
+}
+.profile{
+    text-align: center;
+    margin-top: 100px;
+}
+.profile>hr{
+     margin-left: 300px;
+     margin-right: 300px;
+}
+.logo5{
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
