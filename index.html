@@ -1,65 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CSS Grid starting point</title>
     <style>
+        body {
+            width: 90%;
+            max-width: 900px;
+            margin: 2em auto;
+            font: .9em/1.2 Arial, Helvetica, sans-serif;
+            /* display: grid;
+            grid-template-columns: 100px 100px; */
+        }
 
-    .cont{
-        border: 1px solid black;
-        /* height: 40vh; */
-        display: flex;
-        flex-flow:;
-   
+        .container > div {
+            border-radius: 5px;
+            padding: 10px;
+            background-color: rgb(207,232,220);
+            border: 2px solid rgb(79,185,227);
+     
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
       
-    }
-        .box{ 
-            width: 70px;
-            height: 70px;
-            border: 1px solid black;
-            border-radius:10px;
-            margin: 5px;
-        
-        
+             gap: 20px;
+             
+          background-color: black;
+         
         }
-        .b2{
-            order: 1;
-          
-        }
-        .b3{
-            order: 3;
-        }
-
-        .b4{
-            order: 2;
-        }
-        .mini{
-            display: flex;
+        @media (max-width:500px)
+        {
+            .container{
+                background-color: blue;
+                grid-template-columns: repeat(1,1fr);
+         
+            }
         }
     </style>
-</head>
-<body>  <div class="cont">
-      <div class="box b1"><p>Lorem, ipsum dolor.</p></div>
-      <div class="box b2">2</div>
-      <div class="box b3">3</div>
-      <div class="box b4">4</div>
-      <div class="box b5">5</div>
-     
-    </div>
-    <div class="mini">
-            <p>hyyyyyyyyy</p>
-        <P class="k">42K</P> 
-           <p class="plus">+</p>
-       <p class="user">Happy Active User</p>
-      
-       <P class="k">12K</P> <p class="plus">+</p>
-           <p class="user">Years Experience </p>
-       <p>hiii</p>
-   </div>    
-         
+  </head>
 
+<body>
+    <h1>Simple grid example</h1>
+
+    <div class="container">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+        <div>Six</div>
+        <div>Seven</div>
+    </div>
 
 </body>
+
 </html>
