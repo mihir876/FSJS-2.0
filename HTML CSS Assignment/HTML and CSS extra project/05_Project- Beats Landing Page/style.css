@@ -2,6 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: black;
+    font-family:system-ui;
 }
 .header-section{
  display: flex;
@@ -300,8 +301,11 @@ margin-left: 380px;
 
 /* For mobile resposive */
 @media screen and (max-width:640px){
+    .main{
+        max-width: 600px;
+    }
     body{
-        max-width:640px;
+        max-width:600px;
         margin: auto;
         padding: auto;
         align-items: center;

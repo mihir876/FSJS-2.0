@@ -148,3 +148,85 @@ padding: auto;}
     align-items: center;
     margin-top: 30px;
 }
+
+
+.leftdata{
+    width: 300px;
+
+}
+.leftdata>h3{
+    margin-left: 20px;
+}
+.trust-line{
+    display:flex;
+    justify-content:flex-start;
+    row-gap: 5px;
+}
+.trust-line>hr{
+    width: 100px;
+    margin-left: 10px;
+}
+
+.logo4>img{
+     width:100px;
+     margin: 20px;
+}
+
+.batn{
+    padding: 10px 40px 10px 40px;
+    border-color: blue;
+    border-radius: 5px;
+}
+.form{
+    padding: 10px 40px 10px 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+.login{
+    width: 350px;
+    text-align: center;
+    box-shadow: 10px 5px 5px rgb(207, 202, 202);
+  
+}
+.login>hr{
+    width: 300px;
+}
+.see-why{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: center;}
+
+.item-list{
+    display: flex;
+   
+    margin-top:40px;
+    
+}
+.product,.ForDevelopers,.company,.support,.newsletter{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logocl{
+    margin-left: 100px;
+}
+.mail{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+ 
+    border: 5px;
+    border-color: #000;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(244, 238, 238);
+  
+   
+}
+
+.mail>p>img{
+    margin-left: 100px;
+}

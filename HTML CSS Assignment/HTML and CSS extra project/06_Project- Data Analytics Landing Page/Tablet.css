@@ -1,0 +1,106 @@
+body{
+    
+   
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header>img{
+    margin-left:50px ;
+}
+.header>nav{
+  margin-top: 20px;
+}
+.btn{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.nav {
+  font-size: 20px;
+}
+.data-analytics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  
+}
+.left-side>p{
+    font-size: 20px;
+    width: 250px;
+}
+
+.bigdata>p{
+   
+    font-size: 20px;
+  
+}
+
+.steps-3 {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.best-stack {
+    display: flex;
+    flex-direction: column;
+  
+}
+.right-sidee>div>a{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.right-sidee>div>p{
+     font-size: 17px;
+    
+}
+.Enigneer-team {
+    display: flex;
+    flex-direction: column;
+
+}
+.left-partt>a{
+ margin-left: 100px;
+}
+.left-partt>p{
+    font-size: 17px;
+}
+
+.logo5{
+   
+    display: flex;
+    flex-wrap: wrap;
+  
+    
+}
+.logo5>img{
+  margin: 20px;
+}
+.see-why{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.login{
+    margin-top: 30px;
+}
+.footer{
+    margin-top: 20px;
+}
+.item-list{
+    display: flex;
+  flex-wrap: wrap;
+
+}

@@ -1,0 +1,20 @@
+body{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.left-side>h1{
+    font-size: 30px;
+}
+.left-sidee>img{
+    width: 250px;
+}
+.right-sidee,.left-partt{
+    margin-left: 20px;
+}
+.right-part>img{
+    width: 200px;
+}

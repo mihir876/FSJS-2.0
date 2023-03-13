@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    width: max-content;
+    font-family: system-ui;
+    
+}
+.headerpart{
+  height: 150vh !important;
+}
+
+
+.header{
+    display: flex;
+    column-gap:20px !important;
+
+}
+.header>img{
+    width:200px !important;
+}
+.navbar{
+    font-size:40px;
+    margin-top: 10px;
+}
+.frontpagecontent>h1{
+  
+    font-size:100px;
+}
+.frontpagecontent>p{
+    font-size: 35px;
+   color: rgb(39, 34, 34);
+}
+.btn{
+    
+    padding: 30px 60px 30px 60px !important;
+    font-size: 30px;
+}
+.logonameimg{
+  
+}
+.threehouses {
+    display:flex ;
+    flex-direction:column ;
+    align-items:center;
+   
+} 
+.threehouses>div>img {
+    width: 700px !important;
+    height: 600px !important;
+    border-radius: 10px;
+}    
+.deatils{
+    width:auto !important;
+}
+.deatils>div>b{
+    font-size:60px;
+}
+.deatils>div>strong{
+    font-size:40px;
+}
+.house>header>h1 {
+    font-size:100px;
+}
+.right-side{
+    
+}
+.twoimg{
+    width:700px !important;
+}
+.modernhouse {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+
+}
+.right-side>h1{
+    font-size:100px !important;
+}
+.right-side>p{
+    font-size:30px;
+}
+.Uniquehouse{
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center !important;
+    
+}
+.threeimg{
+    width:700px !important;
+    margin-top:80px !important;
+}
+.rightend{
+    /* margin-bottom:200px !important; */
+    height:600px !important;
+}
+.pp{
+    font-size:25px !important;
+}
+.bt {
+  
+    padding: 20px 60px 20px 60px !important;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    row-gap:10px;
+    margin-top:20px;
+}
+.subcribe{
+    position: relative;
+    right:120px;
+}
+.footer{
+    row-gap: 150px !important;
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+    
+}
+.logoimg{
+    width:200px;
+}
+.sm{
+    max-width:80px !important;
+}
+.social>p{
+    font-size:25px;
+}
+.Location>b{
+    font-size:40px;
+    
+}
+.a{
+    font-size:35px;
+}
+.social{
+    margin-right:400px !important;
+}
